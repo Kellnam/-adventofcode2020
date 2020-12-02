@@ -1,14 +1,9 @@
-def open_file_to_list(path):
-    with open(path, 'r') as numbers:
-        list1 = []
-        for line in numbers:
-            list1.append(line)
-    return list1
+from allDays.read_input import open_file_to_list
 
 
 def day1part1(path):
     """
-    Specifically, they need you to find the two entries that sum to 2020 and then multiply those two numbers together.
+    Specifically, they need you to find the two entries that sum to 2020 and then multiply those two numbers.txt together.
     :param path:
     :return:
     """
@@ -21,7 +16,7 @@ def day1part1(path):
 
 def day1part2(path):
     """
-    They offer you a second one if you can find three numbers in your expense report that meet the same criteria.
+    They offer you a second one if you can find three numbers.txt in your expense report that meet the same criteria.
     :param path:
     :return:
     """
