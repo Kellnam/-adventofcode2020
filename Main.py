@@ -10,4 +10,5 @@ if __name__ == "__main__":
     print('Day 2 part2 solution: ', day2part2('Day2/password_policy.txt'))
     print('Day 3 part1 solution: ', day3part1('Day3/path.txt', 3, 1))
     print('Day 3 part2 solution: ', day3part2('Day3/path.txt'))
-    print('Day 4 part1 solution: ', day4part1('Day4/passports.txt'))
+    print('Day 4 part1 solution: ', day4part1('Day4/passports.txt', 1))
+    print('Day 4 part2 solution: ', day4part1('Day4/passports.txt', 2))
